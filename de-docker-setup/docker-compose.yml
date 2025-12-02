@@ -37,6 +37,7 @@ services:
       - "8888:8888"
     environment:
       JUPYTER_TOKEN: ""
+      JUPYTER_PASSWORD: ""
     volumes:
       - ./notebooks:/home/jovyan/work
     depends_on:
